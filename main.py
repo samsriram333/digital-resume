@@ -22,7 +22,8 @@ NAME = "Sriram Jayavel"
 DESCRIPTION = """
 Junior Data Analyst, assisting enterprises by supporting data-driven decision-making.
 """
-EMAIL = "samsriram333@email.com"
+EMAIL = "samsriram333@gmail.com"
+PHNO = "+91 7904794679"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/sriram-jayavel-b9822711b/",
     "GitHub": "https://github.com/samsriram333",
@@ -59,8 +60,9 @@ with col2:
         mime="application/octet-stream",
     )
 st.write("📫",EMAIL)
+st.write(":iphone:",PHNO)
 #Social_links
-st.write("#")
+# st.write("#")
 cols = st.columns(len(SOCIAL_MEDIA))
 for index,(platform,link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
