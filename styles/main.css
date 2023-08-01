@@ -13,6 +13,10 @@ a:hover{
    color : #d33682 !important;
 }
 
+body {
+        margin-top: -10px; /* Adjust this value to decrease the space on top */
+    }
+
 ul {list-style-type: none;}
 
 hr {
