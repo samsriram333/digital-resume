@@ -13,6 +13,8 @@ current_dir =  Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file    = current_dir/"styles"/"main.css"
 resume_file = current_dir/"assets"/"sriram.pdf"
 profile_pic = current_dir/"assets"/"profile-pic (3).png"
+achivement_pic1 = current_dir/"assets"/"hike1.png"
+achivement_pic2 = current_dir/"assets"/"hike2.png"
 
 #General settings
 
@@ -44,6 +46,8 @@ with open(css_file) as f:
 with open(resume_file,'rb') as pdf_file:
     PDFbyte = pdf_file.read()
     profile_pic = Image.open(profile_pic)
+    achivement_pic1 = Image.open(achivement_pic1)
+    achivement_pic2 = Image.open(achivement_pic2)
 
 
 #Hero Section
@@ -129,3 +133,11 @@ st.subheader("Projects & Accomplishments")
 st.write("___")
 for project in PROJECTS:
     st.write(f"{project}")
+
+#Appreciation
+
+st.write("#")
+st.subheader("Appreciation")
+st.write("🎉 Because of my hard work and passion, the CEO recognized and rewarded me with a double salary increase. 🌟")
+st.image(achivement_pic1)
+st.image(achivement_pic2)
