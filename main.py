@@ -14,7 +14,9 @@ css_file    = current_dir/"styles"/"main.css"
 resume_file = current_dir/"assets"/"sriram.pdf"
 profile_pic = current_dir/"assets"/"profile-pic (3).png"
 achivement_pic1 = current_dir/"assets"/"hike1.png"
-achivement_pic2 = current_dir/"assets"/"hike2.png"
+achivement_pic2 = current_dir/"assets"/"hike2_blur.png"
+
+
 
 #General settings
 
@@ -37,6 +39,8 @@ PROJECTS = {
 }
 st.set_page_config(page_title = PAGE_TITLE , page_icon = PAGE_ICON )
 st.title("Hello there!")
+
+
 
 #Load Css,Profile Pic and Pdf
 

@@ -17,6 +17,11 @@ body {
         margin-top: -10px; /* Adjust this value to decrease the space on top */
     }
 
+body {
+    background-image: url(current_dir/"assets"/"");
+    background-size: cover;
+    }
+
 ul {list-style-type: none;}
 
 hr {
